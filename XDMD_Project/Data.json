@@ -1,0 +1,34 @@
+{
+    "menuList" : [{
+        "title" : "个人中心",
+        "icon": "ios-navigate",
+        "content": [{
+          "subTitle": "个人资料"
+        },
+        {
+          "subTitle": "修改密码"
+        }]
+      },
+      {
+        "title": "个人中心2",
+        "icon": "ios-keypad",
+        "content": [{
+          "subTitle": "个人资料2"
+        },
+        {
+          "subTitle": "修改密码2"
+        }]
+      },
+      {
+        "title": "个人中心3",
+        "icon": "ios-analytics",
+        "content": [{
+          "subTitle": "个人资料3"
+        },
+        {
+          "subTitle": "修改密码3"
+        }]
+      }]
+        
+    
+}
