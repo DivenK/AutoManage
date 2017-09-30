@@ -15,6 +15,10 @@ export default {
       currentUlr: '博客介绍',
       baseUrl: '首页'
     }
+  },
+  created () {
+    var self = this
+    console.log(self.$router)
   }
 }
 </script>

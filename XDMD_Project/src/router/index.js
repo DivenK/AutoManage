@@ -7,6 +7,8 @@ import layout from '@/components/layout.vue'
 
 import login from '@/page/Login/login.vue'
 
+import InputBlog from '@/page/Blogs/SubmitBlogs.vue'
+
 Vue.use(Router)
 
 export default new Router({
@@ -23,8 +25,13 @@ export default new Router({
         // Home 会被渲染在 layout 的 <router-view> 中
           path: 'Home',
           component: Home
+        },
+        {
+          path: 'BlogC',
+          component: InputBlog
         }
       ]
     }
+
   ]
 })
